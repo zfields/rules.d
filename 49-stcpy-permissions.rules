@@ -1,0 +1,2 @@
+# Serial Connection (Circuit Python for STM32 MCUs)
+SUBSYSTEM=="usb", ATTRS{idVendor}=="30a4", ATTRS{idProduct}=="0002", MODE="0664", GROUP="dialout"
