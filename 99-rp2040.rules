@@ -1,0 +1,4 @@
+
+# Raspberry Pi RP2040 bootloader mode UDEV rules
+
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="2e8a", MODE:="0666"
